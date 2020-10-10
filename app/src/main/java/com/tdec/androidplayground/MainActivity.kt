@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         val navController = navFragment.navController
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
-        appBarConfiguration = AppBarConfiguration(setOf(R.id.jschFragment), drawerLayout)
+        appBarConfiguration = AppBarConfiguration(setOf(R.id.jschFragment, R.id.motionLayoutFragment, R.id.serviceDemoFragment), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
     }

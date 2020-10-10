@@ -10,4 +10,14 @@
         android:name="com.tdec.androidplayground.ui.jsch.JschFragment"
         android:label="jsch_fragment"
         tools:layout="@layout/jsch_fragment" />
+    <fragment
+        android:id="@+id/motionLayoutFragment"
+        android:name="com.tdec.androidplayground.ui.motionLayout.MotionLayoutFragment"
+        android:label="MotionLayoutFragment"
+        tools:layout="@layout/motion_layout_fragment"/>
+    <fragment
+        android:id="@+id/serviceDemoFragment"
+        android:name="com.tdec.androidplayground.ui.serviceDemo.ServiceDemoFragment"
+        android:label="ServiceDemoFragment"
+        tools:layout="@layout/service_demo_fragment" />
 </navigation>
